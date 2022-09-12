@@ -29,7 +29,7 @@ const styles = {
 export default function Contact() {
   return (
     <div style={styles.contentStyle}>
-      <h1>Contact</h1>
+      <h2>Contact</h2>
       <form style={styles.formStyle} className="form-group">
         <label for="name">Name</label>
         <input style={styles.inputStyle} class="form-control" type="text" id="name" name="name"/>
