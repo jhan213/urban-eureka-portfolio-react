@@ -9,8 +9,9 @@ const styles = {
   imgStyle: {
     width: "auto",
     height: "22vh",
-    padding: "0 0 1rem 0",
+    padding: "0 0 0 0",
     objectFit: "cover",
+    margin: "0 1rem 1rem 0",
   }
 }
 
@@ -18,20 +19,18 @@ export default function Portfolio() {
   return (
     <div style={styles.contentStyle}>
       <h2>Portfolio</h2>
-      <div className="container">
-        <div className="row justify-content-center">
-          <div className="col-2"></div>
-          <div className="col-5">
-            <img style={styles.imgStyle} src="https://picsum.photos/536/354"></img>
-            <img style={styles.imgStyle} src="https://picsum.photos/536/354"></img>
-            <img style={styles.imgStyle} src="https://picsum.photos/536/354"></img>
-          </div>
-          <div className="col-5">
-            <img style={styles.imgStyle} src="https://picsum.photos/536/354"></img>
-            <img style={styles.imgStyle} src="https://picsum.photos/536/354"></img>
-            <img style={styles.imgStyle} src="https://picsum.photos/536/354"></img>
-          </div>
-          <div className="col-2"></div>
+      <div className="d-flex flex-column">
+        <div className="d-flex justify-content-center">
+          <img style={styles.imgStyle} src="https://picsum.photos/536/354"></img>
+          <img style={styles.imgStyle} src="https://picsum.photos/536/354"></img>
+        </div>
+        <div className="d-flex justify-content-center">
+          <img style={styles.imgStyle} src="https://picsum.photos/536/354"></img>
+          <img style={styles.imgStyle} src="https://picsum.photos/536/354"></img>
+        </div>
+        <div className="d-flex justify-content-center">
+          <img style={styles.imgStyle} src="https://picsum.photos/536/354"></img>
+          <img style={styles.imgStyle} src="https://picsum.photos/536/354"></img>
         </div>
       </div>
     </div>
