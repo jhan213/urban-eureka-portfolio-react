@@ -2,7 +2,7 @@ import React from 'react';
 
 const styles = {
   contentStyle: {
-    background: "lightblue",
+    background: "#abb0b9",
     height: "80vh",
     padding: "25px 50px",
   },
@@ -11,15 +11,15 @@ const styles = {
 const onButtonClick = () => {
   // using Java Script method to get PDF file
   fetch('SamplePDF2.pdf').then(response => {
-      response.blob().then(blob => {
-          // Creating new object of PDF file
-          const fileURL = window.URL.createObjectURL(blob);
-          // Setting various property values
-          let alink = document.createElement('a');
-          alink.href = fileURL;
-          alink.download = 'SamplePDF2.pdf';
-          alink.click();
-      })
+    response.blob().then(blob => {
+      // Creating new object of PDF file
+      const fileURL = window.URL.createObjectURL(blob);
+      // Setting various property values
+      let alink = document.createElement('a');
+      alink.href = fileURL;
+      alink.download = 'SamplePDF2.pdf';
+      alink.click();
+    })
   })
 }
 

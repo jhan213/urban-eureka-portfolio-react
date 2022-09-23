@@ -8,16 +8,16 @@ const styles = {
     padding: "0 0 0 50px",
   },
   headerStyle: {
-    background: "#FDB44E",
+    background: "#cb5353",
     height: "10vh",
     display: "flex",
     flex: "flex-wrap",
     padding: "0 1rem 0 0",
   },
-  navHeadingStyle:{
+  navHeadingStyle: {
     padding: "0 0.75rem",
   },
-  navLinkStyle:{
+  navLinkStyle: {
     color: "black",
   }
 };
