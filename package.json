@@ -1,7 +1,7 @@
 {
   "name": "react-starter",
   "version": "0.1.0",
-  "homepage": "https://jaehan213.github.io/urban-eureka-portfolio-react/",
+  "homepage": "http://jaehan213.github.io/urban-eureka-portfolio-react/",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.2.0",
