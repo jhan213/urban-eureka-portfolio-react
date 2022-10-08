@@ -20,7 +20,7 @@ function Footer() {
       <ul className="list-group list-group-horizontal justify-content-center">
         <li style={styles.listItemStyle} className="list-group-item"><a href="https://github.com/jaehan213" target="_blank"><FontAwesomeIcon icon={faGithubSquare} /></a></li>
         <li style={styles.listItemStyle} className="list-group-item"><a href="https://www.linkedin.com/in/jaewoo-han-79911b250/" target="_blank"><FontAwesomeIcon icon={faLinkedin} /></a></li>
-        <li style={styles.listItemStyle} className="list-group-item"><a href="https://stackoverflow.com/users/19979654/jaehan213" target="_blank"><FontAwesomeIcon icon={faStackOverflow} /></a></li>
+        <li style={styles.listItemStyle} className="list-group-item"><a href="https://jaehan213.github.io/ocean-day-night-portfolio/" target="_blank"><FontAwesomeIcon icon={faStackOverflow} /></a></li>
       </ul>
     </footer>
   );
